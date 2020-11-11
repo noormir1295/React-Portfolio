@@ -1,32 +1,58 @@
-import React from "react";
-import { Layout, Header, Navigation, Content } from "react-mdl";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  NavbarBrand,
+} from "reactstrap";
 
+import "./style.css";
 
-
-function Nav() {
+const Header = (props) => {
+  // const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(props);
+  // const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div style={{ height: "300px", position: "relative" }}>
-      <Layout
-        style={{
-          background:
-            "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover",
-        }}
-      >
-        <Header transparent title="Welcome" style={{ color: "white" }}>
-          <Navigation>
-            <Link to="/home">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/contact">Contact</Link>
-          </Navigation>
-        </Header>
-        <Content />
-      </Layout>
-    </div>
+    <>
+     
+      <Navbar expand="md" fixed="top">
+     
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto navbar justify-content-center fixed-top header">
+            <NavItem>
+              <Link to="/home" className="btn m-2 btn-success">
+                HOME
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/about" className="btn m-2 btn-success">
+                ABOUT
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/portfolio" className="btn m-2 btn-success">
+                PORTFOLIO
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/resume" className="btn m-2 btn-success">
+                RESUME
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact" className="btn m-2 btn-success">
+                CONTACT
+              </Link>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </>
   );
-}
+};
 
-export default Nav;
+export default Header;
