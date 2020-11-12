@@ -4,6 +4,8 @@ import { Container } from "reactstrap";
 import Header from "../../components/Header";
 import AboutCard from "../../components/AboutCard";
 import Footer from "../../components/Footer";
+import CredCard from "../../components/CredCard";
+import SkillsCard from "../../components/SkillsCard";
 
 function About() {
     return (
@@ -11,6 +13,8 @@ function About() {
             <Header />
             <h1>About</h1>
             <AboutCard />
+            <CredCard />
+            <SkillsCard />
             <Footer/>
         </Container>
     )

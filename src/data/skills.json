@@ -18,9 +18,9 @@
           "Node.js",
           "Express",
           "NoSQL - Mongo/Mongoose",
-          "SQL - Oracle/MySql/Sequelize",
+          "SQL - MySql/Sequelize",
           "Rest APIs",
-          "JSON/XML"
+          "JSON"
       ]
     },
      {
