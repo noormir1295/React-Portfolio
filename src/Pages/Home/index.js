@@ -3,6 +3,7 @@ import { Container, Row } from 'reactstrap';
 
 import './style.css'
 import Header from '../../components/Header';
+import Footer from "../../components/Footer";
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
               </div>
             </section>
           </Row>
+          <Footer />
         </Container>
       </div>
     );

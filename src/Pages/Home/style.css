@@ -2,7 +2,9 @@ body {
   padding-top: 75px;
   padding-bottom: 76px;
 }
-
+.root{
+  margin-top: auto;
+}
 .flex {
   align-items: center;
   display: flex;
@@ -14,6 +16,7 @@ body {
   color: #4727F6;
   font-size: 200%;
   font-weight: bolder;
+ 
 }
 
 

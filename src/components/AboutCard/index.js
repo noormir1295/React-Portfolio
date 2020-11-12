@@ -12,7 +12,7 @@ import {
   Col,
 } from "reactstrap";
 
-import image from "../../assets/images/cover-photo.png";
+import image from "../../assets/images/cover-photo.jpg";
 import "./style.css";
 
 function AboutCard() {
