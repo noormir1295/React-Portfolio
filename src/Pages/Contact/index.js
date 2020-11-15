@@ -73,7 +73,7 @@ function Contact() {
                     Web Developer
                   </CardSubtitle>
                   <CardText className="ml-5">
-                    Please contact me with any questions
+                    Please feel free to contact me with any questions.
                   </CardText>
                   <FormGroup className="mx-5">
                     <Label htmlFor="email">Email:</Label>
@@ -85,7 +85,7 @@ function Contact() {
                       type="textarea"
                       id="message"
                       name="message"
-                      placeholder="Sure would be interested in discussing a possible job"
+                      placeholder="I am interested in discussing a possible job"
                     />
                   </FormGroup>
                   <FormGroup className="ml-5">
