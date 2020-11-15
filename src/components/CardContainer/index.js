@@ -1,6 +1,6 @@
 import React from "react";
 // import PortCard from '../../components/PortCard';
-import { Card, Col } from "reactstrap";
+import { Card } from "reactstrap";
 
 const CardContainer = () => {
   return (
