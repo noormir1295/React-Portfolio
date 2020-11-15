@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import "./App.css";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 
 
@@ -22,6 +24,12 @@ function App() {
         <Route exact path="/portfolio">
           <Portfolio />
         </Route>
+        <Route exact path="/resume">
+          <Resume />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+          </Route>
       </Switch>
     </Router>
   );
