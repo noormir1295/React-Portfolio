@@ -1,17 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-import "./App.css";
+
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+import portfolioDB from "../../React-Portfolio/src/data/portfolioDB";
+
+import "./App.css";
 
 
 
 
 
-function App() {
+function App(props) {
   return (
     <Router>
       <Switch>
@@ -22,7 +25,7 @@ function App() {
           <About />
         </Route>
         <Route exact path="/portfolio">
-          <Portfolio />
+          <Portfolio portfolioDB={portfolioDB}/>
         </Route>
         <Route exact path="/resume">
           <Resume />

@@ -1,6 +1,8 @@
-[
+let portfolioDB = {
+   
+    "portfolio": [
     {
-        "id": 1,
+        
         "img": "weatherdashboard.jpg",
         "title": "Weather Dashboard",
         "repo": "https://github.com/noormir1295/WeatherDashboard",
@@ -8,7 +10,7 @@
         "description":"A responsive weather dashbaord application"
     },
     {
-        "id": 2,
+       
         "img": "stock-app.png",
         "title": "Stock Investor App",
         "repo": "https://github.com/swatso2020/Project1",
@@ -16,7 +18,7 @@
         "description":"A stock application"
     },
     {
-        "id": 3,
+        
         "img": "expense-management.png",
         "title": "Expense Management",
         "repo": "https://github.com/noormir1295/Expense-Management",
@@ -24,7 +26,7 @@
         "description":""
     },
     {
-        "id": 4,
+       
         "img": "burgerlogger.jpg",
         "title": "Burger Logger",
         "repo": "https://github.com/noormir1295/burger-logger",
@@ -32,15 +34,15 @@
         "description":"An app that logs burger ate using self-made database with MYSQL"
     },
     {
-        "id": 5,
-        "img": "note-take.jpg",
+        
+        "img": "note-taker.jpg",
         "title": "Daily Scheduler",
         "repo": "https://github.com/noormir1295/dailyscheduler",
         "website":"https://noormir1295.github.io/dailyscheduler/",
         "description":""
     },
     {
-        "id": 6,
+        
         "img": "",
         "title": "Budget Tracker",
         "repo": "https://github.com/noormir1295/budget-tracker",
@@ -48,3 +50,5 @@
         "description":""
     }
 ]
+}
+export default  portfolioDB

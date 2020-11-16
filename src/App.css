@@ -1,10 +1,12 @@
 body {
   /* font parameters */
-  margin:0;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
- 
-
+  background-image: url(./assets/wallpaper-code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
   /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
   /* padding-top: 75px; */
@@ -12,9 +14,17 @@ body {
 
 .navbar {
   /* pulls everything down to push up against bottom border */
-
 }
 
 .nav-link {
   color: black !important;
+}
+
+#title {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
 }

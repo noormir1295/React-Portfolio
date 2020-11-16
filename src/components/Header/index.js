@@ -21,7 +21,7 @@ const Header = (props) => {
      
       <Navbar expand="md" fixed="top">
      
-        <Collapse isOpen={isOpen} navbar>
+       
           <Nav className="mr-auto navbar justify-content-center fixed-top header">
             <NavItem>
               <Link to="/home" className="btn m-2 btn-success">
@@ -49,7 +49,7 @@ const Header = (props) => {
               </Link>
             </NavItem>
           </Nav>
-        </Collapse>
+       
       </Navbar>
     </>
   );

@@ -11,7 +11,7 @@ function About() {
     return (
         <Container>
             <Header />
-            <h1>About</h1>
+            <h1  id="title">About</h1>
             <AboutCard />
             <CredCard />
             <SkillsCard />

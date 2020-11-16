@@ -61,7 +61,7 @@ function Contact() {
       <>
         <Header />
         <Container>
-          <h1>Contact</h1>
+          <h1 id="title">Contact</h1>
           <Card>
             <Row>
               <Col md="6">

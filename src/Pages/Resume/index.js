@@ -23,9 +23,9 @@ export default class Resume extends Component {
     const { numPages } = this.state;
     
     return (
-      <Container>
+      <Container className="resume-container">
         <Header />
-        <h1>Resume</h1>
+        <h1 id="title">Resume</h1>
 
         <Document
           classname="mt-5"

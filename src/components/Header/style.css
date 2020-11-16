@@ -18,8 +18,8 @@
 
 /* Change the color of links on hover */
 .btn-success:hover {
-  background-color: #4717F6 !important;
-  color: #fff !important;
+  background-color: white !important;
+  color: black !important;
   transform: scale(1.1);
   transition: color 0.75s;
   transition-property: color;
