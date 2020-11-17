@@ -12,7 +12,7 @@ const Home = () => {
         <Container>
           <Header />
           <Row className="m-5">
-            <section id="home" className="flex height-fix">
+            <div id="home" className="flex height-fix">
               <div id="pt" className="canvas"></div>
 
               <div className="flex">
@@ -20,13 +20,14 @@ const Home = () => {
                   Hello, I'm <span className="highlight">Noor Mir</span>
                   <br />
                   I am a persistent learning programmer looking to be a Web
-                  Developer
+                  Developer.
                   <br />
+                
                   <br />
                   <p>Thank you for visiting my Website.</p>
                 </div>
               </div>
-            </section>
+            </div>
           </Row>
           <Footer />
         </Container>

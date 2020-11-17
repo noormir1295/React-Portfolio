@@ -1,8 +1,8 @@
 .header {
   margin-bottom: auto;
   border-bottom: solid;
-  border-bottom-color: #4727F6;
-  background-color: #0E0B16;
+  border-bottom-color: white;
+  background-color: #bab2b5;
 }
 
 .nav-link {
@@ -10,8 +10,8 @@
 }
 
 .btn-success {
-  background-color:#0E0B16!important;
-  border-color: #0E0B16 !important;
+  background-color:#bab2b5!important;
+  border-color: #bab2b5 !important;
   color: white !important;
   font-weight: bold;
 }

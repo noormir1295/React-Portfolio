@@ -19,7 +19,7 @@ let portfolioDB = {
     },
     {
         
-        "img": "expense-management.png",
+        "img": "expense-management.jpg",
         "title": "Expense Management",
         "repo": "https://github.com/noormir1295/Expense-Management",
         "website":" https://infinite-plains-92576.herokuapp.com/",
